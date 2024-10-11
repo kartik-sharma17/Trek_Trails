@@ -1,0 +1,166 @@
+
+
+/* for body */
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../IMAGES/ai-generated-8542983.png);
+    background-size: cover;
+}
+
+
+/* for text  */
+.text{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+
+
+.text h1{
+    font-family: "Sora", system-ui;
+    /* font-family: "Oleo Script", system-ui; */
+    /* font-family: "Lilita One", sans-serif; */
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 4.5vw;
+    text-shadow: 2px 2px 10px black;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    animation: fromleft 1s;
+}
+
+.span{
+    font-size: 5.5vw;
+    /* font-family: "Oleo Script", system-ui; */
+    font-family: "Sora", system-ui;
+    font-weight: 700;
+}
+
+
+.bottom_text p{
+    /* font-family: "Oleo Script", system-ui; */
+    /* font-family: "Dancing Script", cursive;*/
+    font-family: "Sora", system-ui;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1vw;
+    text-shadow: 2px 2px 5px black;
+    /* position: absolute; */
+    /* height: 200px; */
+    /* width: 200px; */
+    animation: popup 3s;
+}
+
+/* for icon */
+
+.icon{
+    color: #ffffff;
+    margin: 8px;
+    font-size:1.3vw;
+}
+
+/* for bottom element text */
+.bottom_text{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    padding: 0px 20px;
+}
+
+.bottom_text_invisible{
+    display: none;
+}
+
+.notification button{
+    background-color: transparent;
+    color: #ffffff;
+    font-family: "Sora", system-ui;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px black;
+    border: none;
+    animation: shake 2s;
+    animation-delay: 3s;
+    animation-iteration-count: 10;
+}
+
+
+/* for car  */
+.car{
+    height: 45vw;
+    width: 50vw;
+    background-image: url(../../IMAGES/car_png.png);
+    background-size: cover;
+    /* background-color: yellowgreen; */
+    animation: fromright 1s ;
+}
+
+.low_text{
+    display: flex;
+    align-items: center;
+}
+
+/* for animation  */
+@keyframes fromright {
+    from{
+        transform: translateX(90%);
+    }
+
+    to{
+        transform: translateX(0%);
+    }
+
+}
+
+@keyframes fromleft {
+    from{
+        transform: translateX(-90%);
+    }
+
+    to{
+        transform: translateX(0%);
+    }
+
+}
+
+@keyframes popup {
+    from{
+        transform: translateY(300%);
+    }
+
+    to{
+        transform: translateY(0%);
+    }
+
+}
+
+@keyframes shake {
+    0%{
+        transform: rotate(4deg);
+    }
+    10%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(-4deg);
+    }
+    30%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: rotate(4deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

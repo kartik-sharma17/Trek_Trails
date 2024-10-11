@@ -1,0 +1,27 @@
+
+
+.body{
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+}
+
+.body_invisible{
+    display: none;
+}
+
+/* for menu button */
+.menu{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-family: "Sora", system-ui;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px black;
+}

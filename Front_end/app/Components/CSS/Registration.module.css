@@ -1,0 +1,168 @@
+.body{
+    background-color: #d1ebde;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main{
+    height: 80%;
+    width: 70%;
+    background-color: yellow;
+    display: flex;
+    background-color: #1e2628;
+    border-radius: 40px;
+}
+
+
+/* FOR THE SECTION1 INSIDE THE MAIN */
+
+.sec1{
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    /* background-color: black; */
+}
+
+
+
+.logo{
+    width: 100%;
+    height: 20%;
+    /* background-color: #ff5b13; */
+}
+
+.sec_1_content{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.sec1 h1{
+    color: #fdfefd;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: "Sora", serif;
+    font-weight: 500;
+}
+
+
+
+
+.sec1 p{
+    color: #9c9c9c;
+    text-align: center;
+    font-size: 1vw;
+    font-family: "Sora", serif;
+    font-weight: 500;
+}
+
+
+/* FOR SECTION 2 */
+
+.sec2{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    border-radius:40px ;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+
+.sec_2_content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec_2_content h1{
+    font-size: 2.2vw;
+    font-family: "Sora", serif;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+/* for form input fields */
+.inputs{
+    height: 40px;
+    width: 70%;
+    border: none;
+    margin: 6px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    background-color: #f3f7fa;
+    font-size: 13px;
+    font-family: "Sora", serif;
+    font-weight: 700;
+}
+
+.inputs::placeholder{
+    font-size: 13px;
+    font-family: "Sora", serif;
+    font-weight: 400;
+}
+
+.agree{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-left: 10px;
+}
+
+
+.form label{
+    font-size: 11px;
+    font-family: "Sora", serif;
+    font-weight: 400;
+}
+
+.bt{
+    height: 40px;
+    width: 65%;
+    background-color: #ff5b13;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    font-family: "Sora", serif;
+    font-weight: 500;
+    margin: 10px;
+}
+
+
+.login_link{
+    font-size: 12px;
+    font-family: "Sora", serif;
+    font-weight: 500;
+    margin: 10px;
+    color: #757575;
+}
+
+.sec_2_content a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: "Sora", serif;
+    font-weight: 700;
+    /* margin-left: 5px; */
+}

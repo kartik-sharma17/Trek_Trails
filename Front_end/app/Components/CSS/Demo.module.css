@@ -1,0 +1,128 @@
+
+
+
+.section{
+    height: 100vh;
+    width: 100vw;
+}
+
+.section:nth-child(even){
+    background-color: #202020;
+}
+
+.section:nth-child(odd){
+    background-color: #161616;
+}
+
+
+/* for the section 0 */
+.section0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section0 h1{
+    font-family: "Sora", system-ui;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 5vw;
+}
+
+.skip_demo_btn{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background: transparent;
+    color: #a8a8a0;
+    border: none;
+    font-family: "Sora", system-ui;
+    font-weight: 500;
+}
+
+
+/* for section 1 */
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 h1{
+    font-family: "Sora", system-ui;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 5vw;
+}
+
+.section1 h4{
+    font-family: "Sora", system-ui;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.section1 h6{
+    font-family: "Sora", system-ui;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.explore_btn{
+    position: absolute;
+    bottom: -580px;
+    right: 40px;
+    background: transparent;
+    color: #a8a8a0;
+    border: none;
+    font-family: "Sora", system-ui;
+    font-weight: 500;
+}
+
+/* for section 2 */
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section2 h1{
+    font-family: "Sora", system-ui;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 5vw;
+}
+
+.section2 h3{
+    font-family: "Sora", system-ui;
+    font-weight: 500;
+    color: #ffffff;
+}
+.section2 h5{
+    font-family: "Sora", system-ui;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+/* for section 3 */
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3 h1{
+    font-family: "Sora", system-ui;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.section3 h3{
+    font-family: "Sora", system-ui;
+    font-weight: 700;
+    color: #ffffff;
+}
